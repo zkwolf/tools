@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb', 'prettier', 'prettier/react'],
+  extends: ['airbnb', 'prettier'],
   parser: 'babel-eslint',
   rules: {
     strict: 0,
@@ -10,10 +10,6 @@ module.exports = {
     'import/no-unresolved': 0,
     'import/extensions': 0,
     'no-underscore-dangle': 0,
-    'react/jsx-filename-extension': 0,
-    'react/require-default-props': 0,
-    'react/forbid-prop-types': 0,
-    'react/no-unused-prop-types': 0,
     'no-plusplus': 0,
     'no-bitwise': [2, { allow: ['~'] }],
     'jsx-a11y/no-static-element-interactions': 0,
@@ -23,8 +19,6 @@ module.exports = {
     'jsx-a11y/label-has-for': 0,
     'prefer-destructuring': 0,
     'no-class-assign': 0,
-    'react/no-array-index-key': 0,
-    'react/no-find-dom-node': 0,
   },
   globals: {
     expect: true,
