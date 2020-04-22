@@ -6,6 +6,7 @@ offline tools for react component
 [![gemnasium deps][gemnasium-image]][gemnasium-url]
 [![node version][node-image]][node-url]
 [![npm download][download-image]][download-url]
+[![david-dm][david-image]][david-url]
 
 [npm-image]: http://img.shields.io/npm/v/vc-tools.svg?style=flat-square
 [npm-url]: http://npmjs.org/package/vc-tools
@@ -45,6 +46,11 @@ package.json demo
 ```
 
 ## History
+
+### 9.0.0
+
+- upgrade all deps
+- add `test` task
 
 ### 8.0.0
 
