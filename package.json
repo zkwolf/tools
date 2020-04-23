@@ -1,6 +1,6 @@
 {
   "name": "vc-tools",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "offline tools for vue component",
   "keywords": [
     "vue",
@@ -29,6 +29,9 @@
     "lint-staged": "lint-staged",
     "pub": "rm -rf yarn.lock && git push origin && npm publish"
   },
+  "publishConfig": {
+    "registry": "http://localhost:8090/repository/npm-hosted/"
+  },
   "pre-commit": [
     "checkDep",
     "lint-staged"
@@ -52,13 +55,6 @@
     "@babel/polyfill": "~7.2.5",
     "@babel/preset-env": "~7.2.0",
     "@babel/preset-stage-0": "~7.0.0",
-    "@storybook/addon-a11y": "~5.0.0",
-    "@storybook/addon-actions": "~5.0.0",
-    "@storybook/addon-console": "~1.1.0",
-    "@storybook/addon-info": "~5.0.0",
-    "@storybook/addon-knobs": "~5.0.0",
-    "@storybook/addon-links": "~5.0.0",
-    "@storybook/addon-viewport": "~5.0.0",
     "@storybook/addons": "~5.0.0",
     "@storybook/cli": "~5.0.0",
     "@storybook/vue": "~5.0.0",
@@ -125,7 +121,6 @@
     "recursive-readdir": "^2.2.2",
     "request": "^2.88.0",
     "shelljs": "0.8.x",
-    "storybook-addon-source": "latest",
     "strip-ansi": "^5.0.0",
     "style-loader": "^0.23.1",
     "svg-sprite-loader": "^4.1.3",
