@@ -1,6 +1,6 @@
 {
-  "name": "vc-tools",
-  "version": "1.0.4-beta.1",
+  "name": "@ant-design-vue/tools",
+  "version": "1.0.2-beta.1",
   "description": "offline tools for vue component",
   "keywords": [
     "vue",
