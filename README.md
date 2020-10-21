@@ -48,7 +48,9 @@ package.json demo
           }
         },
         css: {
-          sourceMap: true
+          options: {
+            sourceMap: true
+          }
         }
       }
     }
