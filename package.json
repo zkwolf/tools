@@ -1,6 +1,6 @@
 {
-  "name": "vc-tools",
-  "version": "3.0.0",
+  "name": "@ant-design-vue/tools",
+  "version": "3.0.1",
   "description": "offline tools for vue component",
   "keywords": [
     "vue",
