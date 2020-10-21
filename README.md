@@ -40,6 +40,18 @@ package.json demo
     entry:{}, // webpack entry for build dist umd
     port: 8000, // dev server port
     output:{}, // webpack output for build dist umd
+    css: { // webpack css loader options
+      loaderOptions: {
+        less: {
+          options: {
+            javascriptEnabled: true
+          }
+        },
+        css: {
+          sourceMap: true
+        }
+      }
+    }
   }
 })
 ```
