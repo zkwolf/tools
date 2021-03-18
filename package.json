@@ -1,6 +1,6 @@
 {
   "name": "@ant-design-vue/tools",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "description": "offline tools for vue component",
   "keywords": [
     "vue",
@@ -55,6 +55,7 @@
     "chalk": "^2.4.1",
     "commander": "2.19.x",
     "console-polyfill": "~0.3.0",
+    "core-js": "^3.9.1",
     "css-loader": "^2.0.1",
     "enzyme": "^3.8.0",
     "enzyme-to-json": "^3.3.5",
@@ -123,15 +124,14 @@
     "typescript": "^3.2.2",
     "url-loader": "^1.1.2",
     "webpack": "^4.28.0",
+    "webpack-dev-middleware-for-koa": "^1.1.1",
     "xtemplate": "^4.6.1",
     "xtpl": "^3.4.0"
   },
   "devDependencies": {
-    "core-js": "^3.9.1",
     "gulp-debug": "^4.0.0",
     "lint-staged": "^8.1.0",
-    "pre-commit": "1.x",
-    "webpack-dev-middleware-for-koa": "^1.1.1"
+    "pre-commit": "1.x"
   },
   "pre-commit": [
     "checkDep"
