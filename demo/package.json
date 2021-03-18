@@ -79,6 +79,7 @@
     "lib"
   ],
   "config": {
+    "accesslog": true,
     "port": 3000,
     "entry": {
       "@ant-design-vue/demo-tools": [

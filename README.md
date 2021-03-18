@@ -1,6 +1,6 @@
 # vc-tools
 
-offline tools for react component
+offline tools for vue component
 
 [![NPM version][npm-image]][npm-url]
 [![gemnasium deps][gemnasium-image]][gemnasium-url]
@@ -34,41 +34,36 @@ $ vc-tools run start: start dev server
 
 package.json demo
 
-```js
-({
-  config: {
-    entry:{}, // webpack entry for build dist umd
-    port: 8000, // dev server port
-    output:{}, // webpack output for build dist umd
-    css: { // webpack css loader options
-      loaderOptions: {
-        less: {
-          options: {
-            javascriptEnabled: true
+```json
+{
+  "config": {
+    // show access log in console
+    "accesslog": true,
+    // dev server port
+    "port": 9528,
+    // webpack entry for build dist umd 
+    "entry": {
+      "my-project": [
+        "./src/index.ts"
+      ]
+    },
+    // webpack output for build dist umd
+    "output": {}, 
+    // webpack css loader options
+    "css": {
+      "loaderOptions": {
+        "less": {
+          "options": {
+            "javascriptEnabled": true
           }
         },
-        css: {
-          options: {
-            sourceMap: true
+        "css": {
+          "options": {
+            "sourceMap": true
           }
         }
       }
     }
   }
-})
+}
 ```
-
-## History
-
-### 8.0.0
-
-- upgrade eslint to the latest version
-- introduce prettier
-
-### 7.0.0
-
-- upgrade to webpack3
-
-### 6.0.0
-
-- move test to vc-test
