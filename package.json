@@ -108,7 +108,6 @@
     "object-assign": "4.x",
     "postcss-loader": "^3.0.0",
     "prettier": "^1.15.3",
-    "progress-bar-webpack-plugin": "^1.11.0",
     "recursive-readdir": "^2.2.2",
     "request": "^2.88.0",
     "shelljs": "0.8.x",
@@ -123,8 +122,9 @@
     "tslint-config-prettier": "^1.17.0",
     "typescript": "^3.2.2",
     "url-loader": "^1.1.2",
-    "webpack": "^4.28.0",
+    "webpack": "^5.0.0",
     "webpack-dev-middleware-for-koa": "^1.1.1",
+    "webpackbar": "^5.0.0-3",
     "xtemplate": "^4.6.1",
     "xtpl": "^3.4.0"
   },
